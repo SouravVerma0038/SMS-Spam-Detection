@@ -5,8 +5,8 @@ import joblib
 import numpy as np
 
 # Load vectorizer and model
-vectorizer = joblib.load('C:/Users/Mtechbro-94/Desktop/SMS_Spam_Detector/tfidf_vectorizer.pkl')
-model = joblib.load('C:/Users/Mtechbro-94/Desktop/SMS_Spam_Detector/svm_model.pkl')
+vectorizer = joblib.load(r'C:\Users\soura\SMS-Spam-Detection-using-SVM\tfidf_vectorizer.pkl')
+model = joblib.load(r'C:\Users\soura\SMS-Spam-Detection-using-SVM\svm_model.pkl')
 
 # App UI
 st.set_page_config(page_title="SMS Spam Classifier", layout="centered")
